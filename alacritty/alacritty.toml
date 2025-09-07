@@ -1,0 +1,22 @@
+general.import = [
+  "~/.config/alacritty/catppuccin-macchiato.toml"
+]
+
+[terminal.shell]
+program = "/bin/fish"
+args = ["-l"]
+
+[window]
+padding = { x = 5, y = 5 }
+dynamic_title = true
+
+[font]
+normal = { family = "FiraCode Nerd Font", style = "Regular" }
+size = 13.0
+
+[cursor]
+style = "Block"
+
+[scrolling]
+history = 10000
+multiplier = 3
